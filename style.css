@@ -1,0 +1,309 @@
+body{
+    background-color: lightslategray;
+}
+
+header{
+    background: linear-gradient(to right, lightslategray, rgb(255, 255, 255));
+}
+  
+.logo{
+    color: navy ; 
+    font-family: Vivaldi; 
+    font-size: 30px;
+    border-style: dashed;
+    animation-name: Bord;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes Bord{
+    0% {border-color:rebeccapurple;}
+    25% {border-color: salmon;}
+    50% {border-color: yellow;}
+    100% {border-color: black;}
+}
+  
+h1{
+    background: -webkit-linear-gradient(black, red);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Edwardian Script ITC'; font-size: 70px;
+}
+  
+  
+nav{
+    font-family: cursive; 
+    font-size: 20px;
+}
+  
+footer{
+    background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
+}
+
+main section.container{
+    background-color:steelblue;
+    margin: 90px;
+}
+
+#button-left,
+#button-right,
+#button-left1,
+#button-right1,
+#button-left2{
+    height: 50px;
+    width: 100px;
+    font-family: Konit;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(150, 238, 250);
+}
+
+main section.container-1,
+main section.container-3{
+  min-height: 500px;
+  background-color:steelblue;
+  margin: 90px;
+  display: none;
+}
+
+main section.container-2{
+    background-color:steelblue;
+    margin: 90px;
+    padding-right: 30px;
+    display: none;
+}
+
+main section.container div{
+    align-self: center;
+    text-align: center;
+}
+
+main section.container div div.citat{
+    font-size: 48px;
+    font-family: Konit;
+    margin-bottom: 80px;
+    background: -webkit-linear-gradient( blue, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+main section.container div button{
+    height: 50px;
+    width: 250px;
+    font-family: Konit;
+    font-size: 25px;
+}
+
+main section.container div.row img,
+main section.container-1 div.row img,
+main section.container-2 div.row img,
+main section.container-3 div.row img{
+  height: 300px;
+  justify-self: center;
+  align-self: center;
+}
+
+main section.container-1 div h3,
+main section.container-2 div h3,
+main section.container-3 div h3{
+    font-family: Konit;
+    font-size: 50px;
+    background: -webkit-linear-gradient( blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main section.container-1 div p,
+main section.container-2 div,
+main section.container-3 div{
+    font-family: Konit;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+main section.container-3 div div.Tabel p,
+main section.container-3 div div.Tabel div{
+    border: 2px inset white;
+    margin: 0;
+    padding: 5px;
+}
+
+section.content div.left,
+section.content div.right{
+    background: linear-gradient(slategrey, grey);
+    height: fit-content;
+}
+
+section.content div.left p,
+section.content div.right h4{
+    font-size: 25px;
+    font-family: cursive;
+    padding: 5px;
+}
+
+section.content div.left ul,
+section.content div.right p{
+    font-size: 25px;
+}
+
+section.content div.inf{
+    background: linear-gradient(slategrey, black);
+}
+
+section.content div.inf div.top-inf p{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+section.content div.inf div.top-inf img{
+    width: 500px;
+}
+
+section.content div.inf div.modelul p{
+    font-size: 20px;
+}
+
+section.content div.inf div.modelul ol{
+    font-size: 18px;
+    color: yellowgreen;
+}
+
+section.content div.inf div.scopul div.scop-t div.line,
+section.content div.inf div.postulate div.t div.line{
+border-bottom: 3px solid rgba(241, 235, 235, 0.1);
+margin-bottom: 20px;
+}
+
+section.content div.inf div.scopuri{
+    height: 250px;
+}
+
+section.content div.inf div.scopuri div.col-4{
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    background-color: thistle;
+    font-size: 25px;
+    padding: 40px 10px 40px 10px;
+}
+
+section.content div.right img{
+    width: 250px;
+    margin-left: 20px;
+}
+
+section.content div.inf div.postulate div.c div.col-4{
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: rgba(180, 158, 180, 0.5);
+    font-size: 23px;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 20px;
+}
+
+div.scopul div.scop-t div.row h3.col-6,
+div.postulate div.t div.row h4.col-5 {
+    font-size: 40px;
+    color: rgba(253, 251, 251, 0.5);
+}
+
+section.clasificare div.left{
+    background-color: rgba(231, 184, 231, 0.1);
+    height: fit-content;
+}
+
+section.clasificare div.left p{
+    font-size: 20px;
+}
+
+section.clasificare div.left img{
+    width: 250px;
+}
+
+section.clasificare div.maslow img{
+    width: 800px;
+    margin-left: 100px;
+}
+
+section.clasificare div.maslow img:hover{
+    width: 100%;
+    margin-left: 0;
+}
+
+section.clasificare div.nevoi img{
+    width: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+section.clasificare div.nevoi p{
+    display: none;
+    padding: 10px 40px 10px 10px;
+    font-size: 14px;
+}
+
+section.clasificare div.nevoi div.comunicare:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -300px;
+    margin-bottom: 172px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.miscare:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -160px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.curat:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -200px;
+    margin-bottom: 120px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.imbraca:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -195px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.respira:hover > p,
+section.clasificare div.nevoi div.temperatura:hover > p,
+section.clasificare div.nevoi div.manca:hover > p,
+section.clasificare div.nevoi div.elimina:hover > p,
+section.clasificare div.nevoi div.recrea:hover > p,
+section.clasificare div.nevoi div.invata:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -170px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.pericole:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -270px;
+    margin-bottom: 105px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div.dormi:hover > p,
+section.clasificare div.nevoi div.credinte:hover > p,
+section.clasificare div.nevoi div.util:hover > p{
+    display: block;
+    z-index: +1;
+    margin-top: -195px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+section.clasificare div.nevoi div:hover > img{
+    opacity: 0.4;
+}

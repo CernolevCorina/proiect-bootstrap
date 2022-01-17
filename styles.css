@@ -1,0 +1,49 @@
+body{
+  background-image: url(imagini/asistenta.jpg);
+  background-repeat: no-repeat;
+}
+
+.logo{
+  color: navy ; 
+  font-family: Vivaldi; 
+  font-size: 30px;
+  border-style: dashed;
+  animation-name: Bord;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Bord{
+  0% {border-color:rebeccapurple;}
+  25% {border-color: salmon;}
+  50% {border-color: yellow;}
+  100% {border-color: black;}
+}
+
+h1{
+  background: -webkit-linear-gradient(black, red);  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Edwardian Script ITC'; font-size: 70px;
+}
+
+header{
+  width: 70%;
+}
+
+nav{
+  font-family: cursive; 
+  font-size: 20px;
+}
+
+.content-1{
+  font-family: Bookman Old Style; 
+  font-size: 25px; 
+  padding-top: 200px;
+  padding-bottom: 300px;
+  color:darkblue;
+}
+
+footer{
+  background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
+}
